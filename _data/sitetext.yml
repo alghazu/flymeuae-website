@@ -1,0 +1,79 @@
+--- # -----------------
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+en: &DEFAULT_EN
+  header:
+    title: "Seamless UAE Visas: Your Journey Begins Here"
+    text: Visit Visa Made Simple!
+    image: assets/img/baloon-logo.svg
+    button: Apply Now
+    buttonlink: "#contact"
+
+  features:
+    title: "Why Apply With Us"
+    text: "We prioritize your convenience and peace of mind throughout the application process"
+    section: features
+    list:
+      - title: "Expert Guidance"
+        desc: "Flyme's experienced visa specialists are well-versed in UAE visa regulations. They navigate the complexities of the application process, ensuring your documentation is accurate and submitted on time."
+        icon: fas fa-graduation-cap
+      - title: "Fast Service"
+        desc: "We understand that time is of the essence in travel planning. Flyme offers expedited visa processing, minimizing wait times and helping you embark on your UAE adventure sooner."
+        icon: fas fa-clock
+      - title: "Personalized Support"
+        desc: "At Flyme, we treat every traveler as an individual with unique needs. Our customer support team is readily available to answer questions, address concerns, and tailor our services to your specific travel requirements."
+        icon: fas fa-handshake
+
+
+  about:
+    title: "About Us"
+    text: "Our story"
+    body: "Flyme is your trusted partner in simplifying travel experiences. With a commitment to excellence and a passion for exploring new horizons, we specialize in providing hassle-free visa services for your journey to the UAE. Our dedicated team of experts ensures a seamless application process, allowing you to focus on the excitement of your upcoming adventure. At Flyme, we make your travel dreams take flight."
+    section: about
+
+  contact:
+    title: "Apply Now"
+    text: "We're just an email away, don't hesitate to contact us"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number*"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Submit"
+
+  clients:
+    section: clients
+    max-height: 30px
+    horizontal-scrolling: "yes" #"yes/no"
+    list:
+      - title: ""
+        url: 
+        logo: assets/img/clients/
+      - title: ""
+        url:
+        logo: assets/img/clients/
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com/flymeuae/
+        icon: "fab fa-twitter"
+      - url: https://www.facebook.com/flymeuae/
+        icon: "fab fa-facebook-f"
+      - url: https://instagram.com/flymeuae
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
