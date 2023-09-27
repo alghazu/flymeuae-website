@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: "Seamless UAE Visas: Your Journey Begins Here"
-    text: Visit Visa Made Simple!
+    text: Tourist Visa Made Simple!
     image: assets/img/baloon-logo.svg
     button: Apply Now
     buttonlink: "#contact"
@@ -32,6 +32,11 @@ en: &DEFAULT_EN
         desc: "At Flyme, we treat every traveler as an individual with unique needs. Our customer support team is readily available to answer questions, address concerns, and tailor our services to your specific travel requirements."
         icon: fas fa-handshake
 
+  portfolio:
+    title: "UAE Visas"
+    text: "Experience the beauty and excitement of the UAE with the ease of our visa services. We strive to make your journey hassle-free."
+    section: portfolio
+    closebutton: "Close"
 
   about:
     title: "About Us"
@@ -41,7 +46,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Apply Now"
-    text: "We're just an email away, don't hesitate to contact us"
+    text: "Fill out the application form, and we'll be in touch shortly to assist you with your UAE visa needs. Get ready for your adventure!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
