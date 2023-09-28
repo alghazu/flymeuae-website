@@ -38,7 +38,29 @@
                   required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.phone-validation | default: "Please enter your phone number." }}">
                 <p class="help-block text-danger"></p>
               </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input name="age" class="form-control" id="age" type="text" placeholder="Age">
+                  <p class="help-block text-danger"></p>
+                </div>              
+                <div class="form-group col">
+                  <select class="form-control" id="gender" name="gender" >
+                    <option value="">Select Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                </div>
+                <div class="form-group col-lg">
+                  <select class="form-control" id="nationality" name="nationality">
+                    <option value="">Select Nationality</option>
+                  </select>
+                </div>
+              </div>
             </div>
+
+          
+
+
             <div class="col-md-6">
               <div class="form-group">
                 <textarea name="message" class="form-control" id="message"
