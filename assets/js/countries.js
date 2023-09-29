@@ -21,7 +21,7 @@ fetch("https://restcountries.com/v3.1/all")
     // Iterate through the sorted list and populate the select element
     sortedCountries.forEach((country) => {
       const option = document.createElement("option");
-      option.value = country.name.common; 
+      // option.value = country.name.common; 
       option.textContent = country.name.common;
       nationalitySelect.appendChild(option);
     });
