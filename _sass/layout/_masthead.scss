@@ -23,7 +23,28 @@ header.masthead {
       margin-bottom: 25px;
       @include serif-font;
     }
-
+    .contact-link {
+      color: white;
+      font-size: 22px;
+      margin-bottom: 25px;
+      @include heading-font;
+    
+      a {
+        text-decoration: none;
+    
+        .icon-and-text {
+          display: flex;
+          align-items: center; 
+          margin-right: 16px;
+          margin-left: 16px;
+          span {
+            color: white;
+            margin-left: 10px; 
+          }
+        }
+      }
+    }   
+    
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
