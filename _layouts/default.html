@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" dir="{{ site.data.sitetext[site.locale].header.dir }}">
+
 
   {% include head.html %}
 

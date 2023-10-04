@@ -11,6 +11,7 @@
 # English (default)
 en: &DEFAULT_EN
   header:
+    dir: ltr
     title: "Seamless UAE Visas: Your Journey Begins Here"
     text: Tourist Visa Made Simple!
     image: assets/img/baloon-logo.svg
@@ -68,7 +69,7 @@ en: &DEFAULT_EN
     horizontal-scrolling: "yes" #"yes/no"
     list:
       - title: ""
-        url: 
+        url:
         logo: assets/img/clients/
       - title: ""
         url:
@@ -85,3 +86,89 @@ en: &DEFAULT_EN
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Arabic
+# -------
+ar: &DEFAULT_AR
+  header:
+    dir: rtl
+    title: "تأشيرات الإمارات: رحلتك تبدأ هنا"
+    text: "أحصل على تأشيرتك السياحية بسهولة!"
+    image: assets/img/baloon-logo.svg
+    button: "قدّم الآن"
+    buttonlink: "#contact"
+
+  features:
+    title: "لماذا تقدم معنا"
+    text: "نحن نولي أهمية كبيرة لراحتك وسلامتك طوال عملية التقديم"
+    section: features
+    list:
+      - title: "إرشاد متخصص"
+        desc: "متخصصو تأشيرات فلايمي ذوو الخبرة على دراية بلوائح تأشيرات الإمارات. يتجاوزون تعقيدات عملية التقديم ويضمنون أن تكون مستنداتك دقيقة ومقدمة في الوقت المناسب."
+        icon: fas fa-graduation-cap
+      - title: "خدمة سريعة"
+        desc: "نحن نفهم أن الوقت ثمين في تخطيط السفر. تقدم فلايمي خدمة معالجة التأشيرة بسرعة، مما يقلل من وقت الانتظار ويساعدك على الانطلاق في مغامرتك في الإمارات بسرعة."
+        icon: fas fa-clock
+      - title: "دعم شخصي"
+        desc: "في فلايمي، نعامل كل مسافر كفرد لديه احتياجات فريدة. فريق دعم العملاء لدينا متاح دائمًا للإجابة على الأسئلة، ومعالجة المخاوف، وتصميم خدماتنا وفقًا لمتطلبات سفرك الخاصة."
+        icon: fas fa-handshake
+
+  portfolio:
+    title: "تأشيرات الإمارات"
+    text: "استمتع بجمال وإثارة الإمارات بسهولة من خلال خدماتنا فيما يتعلق بالتأشيرات. نحن نسعى لجعل رحلتك خالية من المتاعب."
+    section: portfolio
+    closebutton: "إغلاق"
+
+  about:
+    title: "عنا"
+    text: "قصتنا"
+    body: "فلايمي هي شريكك الموثوق لتبسيط تجارب السفر. بالتفاني للتميز وشغف لاستكشاف آفاق جديدة، نتخصص في تقديم خدمات تأشيرة خالية من المتاعب لرحلتك إلى الإمارات. يضمن فريقنا المخصص من الخبراء عملية تقديم سلسة، مما يتيح لك التركيز على إثارة مغامرتك القادمة. في فلايمي، نحقق أحلام سفرك."
+    section: about
+
+  contact:
+    title: "قدّم الآن"
+    text: "املأ النموذج وسنتصل بك قريبًا لمساعدتك في تلبية احتياجات تأشيرتك إلى الإمارات. استعد لمغامرتك!"
+    section: contact
+    name: "الاسم*"
+    name-validation: "يرجى إدخال اسمك."
+    email: "البريد الإلكتروني*"
+    email-validation: "الرجاء إدخال عنوان البريد الإلكتروني الخاص بك."
+    phone: "رقم الهاتف*"
+    phone-validation: "الرجاء إدخال رقم الهاتف الخاص بك."
+    message: "الرسالة"
+    age: "العمر"
+    gender: "اختر الجنس"
+    nationality: "اختر الجنسية"
+    visa-type: "اختر نوع التأشيرة"
+    subject: "تقديم نموذج الاتصال"
+    submit: "إرسال"
+
+  clients:
+    section: clients
+    max-height: 30px
+    horizontal-scrolling: "yes" #"yes/no"
+    list:
+      - title: ""
+        url:
+        logo: assets/img/clients/
+      - title: ""
+        url:
+        logo: assets/img/clients/
+
+  footer:
+    legal: "سياسة الخصوصية"
+    social:
+      - url: https://twitter.com/flymeuae/
+        icon: "fab fa-twitter"
+      - url: https://www.facebook.com/flymeuae/
+        icon: "fab fa-facebook-f"
+      - url: https://instagram.com/flymeuae
+        icon: "fab fa-instagram"
+ar-AR:
+  <<: *DEFAULT_AR
