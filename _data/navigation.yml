@@ -10,6 +10,9 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
+  menu: "Menu"
+  logo: 
+    path: assets/img/logo/logo.svg
   nav:
     - title: "Visas"
       section: portfolio
@@ -19,4 +22,25 @@ en: &DEFAULT_EN
       section: about
 en-US:
   <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
 
+# Arabic
+# -------
+ar: &DEFAULT_AR
+  menu: "القائمة"
+  logo: 
+    path: assets/img/logo/logo-arabic.svg
+  nav:
+    - title: "الفيز"
+      section: portfolio
+    - title: "قدّم الآن"
+      section: contact
+    - title: "عنا"
+      section: about
+ar-AR:
+  <<: *DEFAULT_AR

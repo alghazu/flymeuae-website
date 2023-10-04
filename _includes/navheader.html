@@ -3,13 +3,13 @@
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       {%- if site.logo -%}
-      <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" alt="logo" />
+      <img height="{{ site.logo.height | default: 52 }}" src="{{ site.data.navigation[site.locale].logo.path | default: site.logo.path}}" alt="logo" />
       {%- endif -%}
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
       data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
       aria-label="Toggle navigation">
-      Menu
+      {{ site.data.navigation[site.locale].menu }}
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -84,7 +84,4 @@
     </div>
   </div>
 </header>
-
-
-
 <!-- End Header -->
