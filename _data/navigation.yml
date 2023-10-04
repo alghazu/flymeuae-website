@@ -13,6 +13,7 @@ en: &DEFAULT_EN
   menu: "Menu"
   logo: 
     path: assets/img/logo/logo.svg
+    height: 
   nav:
     - title: "Visas"
       section: portfolio
@@ -35,6 +36,7 @@ ar: &DEFAULT_AR
   menu: "القائمة"
   logo: 
     path: assets/img/logo/logo-arabic.svg
+    height: 
   nav:
     - title: "الفيز"
       section: portfolio
