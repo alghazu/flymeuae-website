@@ -2,19 +2,17 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      {%- if site.logo -%}
-      <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" alt="logo" />
-      {%- endif -%}
+      <img height="{{ site.data.navigation[site.locale].logo.height | default: 52 }}" src="{{ site.data.navigation[site.locale].logo.path}}" alt="logo" />
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
       data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
       aria-label="Toggle navigation">
-      Menu
+      {{ site.data.navigation[site.locale].menu }}
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
-        {% for link in site.data.navigation[site.locale].nav %}
+        {%- for link in site.data.navigation[site.locale].nav -%}
         <li class="nav-item">
           {%- if link.url -%}
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
@@ -46,16 +44,16 @@
         <div class="contact-link">
           <!-- Phone number in front of phone logo -->
           <a href="tel:+971501166460">
-            <div class="icon-and-text">
+            <div class="icon-and-text" dir="ltr">
               <i class="fas fa-square-phone fa-2x" style="color: white;"></i>
-              <span>+971 50 1166460</span>
+              <span dir="ltr">+971 50 1166460</span>
             </div>
           </a>
         </div>
         <div class="contact-link">
           <!-- WhatsApp number in front of WhatsApp logo -->
           <a href="https://api.whatsapp.com/send?phone=+971501245033" target="_blank">
-            <div class="icon-and-text">
+            <div class="icon-and-text" dir="ltr">
               <i class="fa-brands fa-whatsapp fa-bounce fa-2x" style="color: #25d366;"></i>
               <span>+971 50 1245033</span>
             </div>
@@ -65,7 +63,7 @@
         <div class="contact-link">
           <!-- WhatsApp number in front of WhatsApp logo -->
           <a href="mailto:contact@flymeuae.com" target="_blank">
-            <div class="icon-and-text">
+            <div class="icon-and-text" dir="ltr">
               <i class="far fa-envelope fa-2x" style="color: white;"></i>
               <span>contact@flymeuae.com</span>
             </div>
@@ -84,7 +82,4 @@
     </div>
   </div>
 </header>
-
-
-
 <!-- End Header -->

@@ -1,15 +1,11 @@
 ---
-caption: # What displays in the portfolio grid
-  title: 30 Days Tourist Visa
-  subtitle: Starting from 399 AED
-  thumbnail: assets/img/product/orange-bag.webp
-  alt: 30_days
-  
-# What displays when the item is clicked
+
+lang: en
 title: 30 Days Tourist Visa
 subtitle: Starting from 399 AED
 image: assets/img/product/orange-bag.webp
 alt: 30_days
++ lang: en
 
 ---
 

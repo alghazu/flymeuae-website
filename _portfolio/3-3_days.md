@@ -1,11 +1,5 @@
 ---
-caption: # What displays in the portfolio grid
-  title: 96 Hours Tourist Visa
-  subtitle: Starting from 349 AED
-  thumbnail: assets/img/product/blue-bag.webp
-  alt: 96_hours
-  
-# What displays when the item is clicked
+
 title: 96 Hours Tourist Visa
 subtitle: Starting from 349 AED
 image: assets/img/product/blue-bag.webp

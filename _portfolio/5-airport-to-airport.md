@@ -1,11 +1,5 @@
 ---
-caption: # What displays in the portfolio grid
-  title: Airport to Airport Visa Change
-  subtitle: Starting from 1799 AED
-  thumbnail: assets/img/product/airport-to-airport.webp
-  alt: airport
-  
-# What displays when the item is clicked
+
 title: Airport to Airport Visa Change
 subtitle: Starting from 1799 AED
 image: assets/img/product/airport-to-airport.webp

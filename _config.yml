@@ -15,20 +15,16 @@ url    : "https://flymeuae.com" # the base hostname & protocol for your site, e.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Flyme UAE
-email      : saif@flymeuae.com  #this is also the email contact forms will go to
+email      : contactf@flymeuae.com  #this is also the email contact forms will go to
 description: UAE Tourist Visas
 author     : Saif
-logo:     #optional, defaults to site title
-  path: assets/img/logo/logo.svg
-  height:  #height in px, defaults to 52px
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale:  en  #"ar" or "en" for default language
 
 analytics:
-  google: UA-154292020-1
+  google: G-BWPSY71XPD
 
 collections:
   portfolio:
 
 markdown: kramdown
-
