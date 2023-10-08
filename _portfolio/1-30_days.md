@@ -1,9 +1,11 @@
 ---
 
+lang: en
 title: 30 Days Tourist Visa
 subtitle: Starting from 399 AED
 image: assets/img/product/orange-bag.webp
 alt: 30_days
++ lang: en
 
 ---
 

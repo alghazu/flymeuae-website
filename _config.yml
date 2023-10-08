@@ -19,7 +19,7 @@ email      : contactf@flymeuae.com  #this is also the email contact forms will g
 description: UAE Tourist Visas
 author     : Saif
 
-locale:  "ar-AR" # "en-US" # See available languages in _data/sitetext.yml
+locale:  en  #"ar" or "en" for default language
 
 analytics:
   google: G-BWPSY71XPD
@@ -28,4 +28,3 @@ collections:
   portfolio:
 
 markdown: kramdown
-
