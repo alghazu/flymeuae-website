@@ -1,11 +1,5 @@
 ---
-caption: # What displays in the portfolio grid
-  title: 60 Days Tourist Visa
-  subtitle: Starting from 699 AED
-  thumbnail: assets/img/product/green-bag.webp
-  alt: 60_days
-  
-# What displays when the item is clicked
+
 title: 60 Days Tourist Visa
 subtitle: Starting from 699 AED
 image: assets/img/product/green-bag.webp

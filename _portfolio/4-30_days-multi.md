@@ -1,11 +1,5 @@
 ---
-caption: # What displays in the portfolio grid
-  title: 30 Days Multi-Entry
-  subtitle: Starting from 699 AED
-  thumbnail: assets/img/product/multi-bag.webp
-  alt: 30_days-multi
-  
-# What displays when the item is clicked
+
 title: 30 Days Multi-Entry
 subtitle: Starting from 699 AED
 image: assets/img/product/multi-bag.webp
