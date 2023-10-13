@@ -63,7 +63,7 @@
                 <select class="form-control" id="visa-type" name="visa-type" >
                   <option value="">{{ site.data.sitetext[site.locale].contact.visa-type | default: 'Select Visa Type' }}</option>
                   {% for project in site.portfolio %}
-                    <option>{{ project.caption.title }}</option>
+                    <option>{{ project.title }}</option>
                   {% endfor %}
                 </select>
               </div>
