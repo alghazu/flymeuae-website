@@ -4,5 +4,5 @@ X Add Whatsapp number, phone and email
 - Add Arabic Translation 
 X Connect the domain
 X Check google analytics
-- change email to contact@flymeuae.com
-- divert emails to saif gmail
+X change email to contact@flymeuae.com
+X divert emails to saif gmail
