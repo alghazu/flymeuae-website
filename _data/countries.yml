@@ -1,0 +1,400 @@
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  - name: Afghanistan
+  - name: Albania
+  - name: Algeria
+  - name: Andorra
+  - name: Angola
+  - name: Antigua and Barbuda
+  - name: Argentina
+  - name: Armenia
+  - name: Australia
+  - name: Austria
+  - name: Azerbaijan
+  - name: Bahamas
+  - name: Bahrain
+  - name: Bangladesh
+  - name: Barbados
+  - name: Belarus
+  - name: Belgium
+  - name: Belize
+  - name: Benin
+  - name: Bhutan
+  - name: Bolivia
+  - name: Bosnia and Herzegovina
+  - name: Botswana
+  - name: Brazil
+  - name: Brunei
+  - name: Bulgaria
+  - name: Burkina Faso
+  - name: Burundi
+  - name: Cabo Verde
+  - name: Cambodia
+  - name: Cameroon
+  - name: Canada
+  - name: Central African Republic
+  - name: Chad
+  - name: Chile
+  - name: China
+  - name: Colombia
+  - name: Comoros
+  - name: Congo
+  - name: Costa Rica
+  - name: Croatia
+  - name: Cuba
+  - name: Cyprus
+  - name: Czech Republic
+  - name: Denmark
+  - name: Djibouti
+  - name: Dominica
+  - name: Dominican Republic
+  - name: East Timor
+  - name: Ecuador
+  - name: Egypt
+  - name: El Salvador
+  - name: Equatorial Guinea
+  - name: Eritrea
+  - name: Estonia
+  - name: Eswatini
+  - name: Ethiopia
+  - name: Fiji
+  - name: Finland
+  - name: France
+  - name: Gabon
+  - name: Gambia
+  - name: Georgia
+  - name: Germany
+  - name: Ghana
+  - name: Greece
+  - name: Grenada
+  - name: Guatemala
+  - name: Guinea
+  - name: Guinea-Bissau
+  - name: Guyana
+  - name: Haiti
+  - name: Honduras
+  - name: Hungary
+  - name: Iceland
+  - name: India
+  - name: Indonesia
+  - name: Iran
+  - name: Iraq
+  - name: Ireland
+  - name: Israel
+  - name: Italy
+  - name: Ivory Coast
+  - name: Jamaica
+  - name: Japan
+  - name: Jordan
+  - name: Kazakhstan
+  - name: Kenya
+  - name: Kiribati
+  - name: North Korea
+  - name: South Korea
+  - name: Kosovo
+  - name: Kuwait
+  - name: Kyrgyzstan
+  - name: Laos
+  - name: Latvia
+  - name: Lebanon
+  - name: Lesotho
+  - name: Liberia
+  - name: Libya
+  - name: Liechtenstein
+  - name: Lithuania
+  - name: Luxembourg
+  - name: Madagascar
+  - name: Malawi
+  - name: Malaysia
+  - name: Maldives
+  - name: Mali
+  - name: Malta
+  - name: Marshall Islands
+  - name: Mauritania
+  - name: Mauritius
+  - name: Mexico
+  - name: Micronesia
+  - name: Moldova
+  - name: Monaco
+  - name: Mongolia
+  - name: Montenegro
+  - name: Morocco
+  - name: Mozambique
+  - name: Myanmar
+  - name: Namibia
+  - name: Nauru
+  - name: Nepal
+  - name: Netherlands
+  - name: New Zealand
+  - name: Nicaragua
+  - name: Niger
+  - name: Nigeria
+  - name: North Macedonia
+  - name: Norway
+  - name: Oman
+  - name: Pakistan
+  - name: Palestine
+  - name: Palau
+  - name: Panama
+  - name: Papua New Guinea
+  - name: Paraguay
+  - name: Peru
+  - name: Philippines
+  - name: Poland
+  - name: Portugal
+  - name: Qatar
+  - name: Romania
+  - name: Russia
+  - name: Rwanda
+  - name: Saint Kitts and Nevis
+  - name: Saint Lucia
+  - name: Saint Vincent and the Grenadines
+  - name: Samoa
+  - name: San Marino
+  - name: Sao Tome and Principe
+  - name: Saudi Arabia
+  - name: Senegal
+  - name: Serbia
+  - name: Seychelles
+  - name: Sierra Leone
+  - name: Singapore
+  - name: Slovakia
+  - name: Slovenia
+  - name: Solomon Islands
+  - name: Somalia
+  - name: South Africa
+  - name: South Sudan
+  - name: Spain
+  - name: Sri Lanka
+  - name: Sudan
+  - name: Suriname
+  - name: Sweden
+  - name: Switzerland
+  - name: Syria
+  - name: Taiwan
+  - name: Tajikistan
+  - name: Tanzania
+  - name: Thailand
+  - name: Togo
+  - name: Tonga
+  - name: Trinidad and Tobago
+  - name: Tunisia
+  - name: Turkey
+  - name: Turkmenistan
+  - name: Tuvalu
+  - name: Uganda
+  - name: Ukraine
+  - name: United Arab Emirates
+  - name: United Kingdom
+  - name: United States
+  - name: Uruguay
+  - name: Uzbekistan
+  - name: Vanuatu
+  - name: Vatican City
+  - name: Venezuela
+  - name: Vietnam
+  - name: Yemen
+  - name: Zambia
+  - name: Zimbabwe
+
+
+# Arabic
+# -------
+ar: &DEFAULT_AR
+- name:  أفغانستان
+- name:  ألبانيا
+- name:  الجزائر
+- name:  أندورا
+- name:  أنغولا
+- name: أنتيغوا وبربودا
+- name:  الارجنتين
+- name:  أرمينيا
+- name:  أستراليا
+- name:  النمسا
+- name:  اذربيجان
+- name:  البحرين
+- name:  بنجلاديش
+- name:  بربادوس
+- name: بيلاروسيا
+- name:  بلجيكا
+- name:  بليز
+- name:  بنين
+- name:  بوتان
+- name:  بوليفيا
+- name: البوسنة والهرسك
+- name:  بوتسوانا
+- name:  البرازيل
+- name:  بروناي
+- name:  بلغاريا
+- name:  بوركينا فاسو
+- name:  بوروندي
+- name: كابو فيردي
+- name:  كمبوديا
+- name:  الكاميرون
+- name:  كندا
+- name:  جمهورية أفريقيا الوسطى
+- name:  تشاد
+- name:  تشيلي
+- name:  الصين
+- name:  كولومبيا
+- name:  جزر القمر
+- name:  كوستاريكا
+- name:  كرواتيا
+- name:  كوبا
+- name:  قبرص
+- name:  جمهورية التشيك
+- name:  الكونغو الديمقراطية
+- name:  الدنمارك
+- name:  جيبوتي
+- name: دومينيكا
+- name:  جمهورية الدومينيكان
+- name:  تيمور الشرقية
+- name:  الاكوادور
+- name:  مصر
+- name:  السلفادور
+- name:  غينيا الاستوائية
+- name:  إريتريا
+- name:  استونيا
+- name:  إيسواتيني
+- name:  اثيوبيا
+- name:  فيجي
+- name:  فنلندا
+- name:  فلسطين
+- name:  فرنسا
+- name:  الجابون
+- name:  غامبيا
+- name: جورجيا
+- name:  ألمانيا
+- name:  غانا
+- name:  اليونان
+- name:  غرناطة
+- name:  غواتيمالا
+- name:  غينيا
+- name:  غينيا بيساو
+- name:  غيانا
+- name:  هايتي
+- name:  هندوراس
+- name:  المجر
+- name:  أيسلندا
+- name:  الهند
+- name:  اندونيسيا
+- name:  إيران
+- name:  العراق
+- name:  ايرلندا
+- name:  إسرائيل
+- name:  إيطاليا
+- name:  ساحل العاج
+- name:  جامايكا
+- name:  اليابان
+- name:  الأردن
+- name: كازاخستان
+- name:  كينيا
+- name:  كيريباتي
+- name:  كوسوفو
+- name:  الكويت
+- name:  قيرغيزستان
+- name: لاوس
+- name: لاتفيا
+- name:  لبنان
+- name:  ليسوتو
+- name:  ليبيريا
+- name:  ليبيا
+- name:  ليختنشتاين
+- name:  ليتوانيا
+- name:  لوكسمبورج
+- name:  مدغشقر
+- name:  ملاوي
+- name:  ماليزيا
+- name:  جزر المالديف
+- name:  مالي
+- name:  مالطا
+- name: جزر مارشال
+- name:  موريتانيا
+- name:  موريشيوس
+- name:  المكسيك
+- name:  ميكرونيزيا
+- name:  مولدوفا
+- name:  موناكو
+- name:  منغوليا
+- name:  الجبل الأسود
+- name:  المغرب
+- name:  موزمبيق
+- name:  ميانمار
+- name:  ناميبيا
+- name:  ناورو
+- name:  نيبال
+- name:  هولندا
+- name:  نيوزيلندا
+- name:  نيكاراغوا
+- name:  النيجر
+- name:  نيجيريا
+- name:  مقدونيا الشمالية
+- name:  النرويج
+- name:  عمان
+- name:  باكستان
+- name:  بالاو
+- name:  بنما
+- name:  بابوا غينيا الجديدة
+- name:  باراغواي
+- name:  بيرو
+- name:  الفلبين
+- name:  بولندا
+- name:  البرتغال
+- name:  قطر
+- name:  جمهورية الكونغو
+- name:  رومانيا
+- name: روسيا
+- name:  رواندا
+- name: سانت كيتس ونيفيس
+- name: سانت لوسيا
+- name: سانت فنسنت وجزر غرينادين
+- name:  ساموا
+- name:  سان مارينو
+- name: ساو تومي وبرينسيبي
+- name:  السعودية
+- name:  السنغال
+- name:  صربيا
+- name:  سيشيل
+- name:  سيراليون
+- name:  سنغافورة
+- name:  سلوفاكيا
+- name:  سلوفينيا
+- name:  جزر سليمان
+- name:  الصومال
+- name:  جنوب أفريقيا
+- name:  كوريا الجنوبية
+- name:  جنوب السودان
+- name:  اسبانيا
+- name:  سريلانكا
+- name:  السودان
+- name:  سورينام
+- name:  السويد
+- name:  سويسرا
+- name:  سوريا
+- name: تايوان
+- name: طاجيكستان
+- name:  تنزانيا
+- name:  تايلاند
+- name:  جزر البهاما
+- name:  توغو
+- name:  تونغا
+- name: ترينيداد وتوباغو
+- name:  تونس
+- name:  تركيا
+- name:  تركمانستان
+- name:  توفالو
+- name:  أوغندا
+- name: أوكرانيا
+- name:  الإمارات العربية المتحدة
+- name:  المملكة المتحدة
+- name:  الولايات المتحدة
+- name:  أوروغواي
+- name:  أوزباكستان
+- name:  فانواتو
+- name: مدينة الفاتيكان
+- name:  فنزويلا
+- name:  فيتنام
+- name:  اليمن
+- name:  زامبيا
+- name:  زيمبابوي

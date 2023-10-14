@@ -53,6 +53,9 @@
                 <div class="form-group col-lg">
                   <select class="form-control" id="nationality" name="nationality">
                     <option>{{ site.data.sitetext[site.locale].contact.nationality | default: 'Select Nationality' }}</option>
+                    {% for country in site.data.countries[site.locale] %}
+                    <option>{{ country.name }}</option>
+                  {% endfor %}
                   </select>
                 </div>
               </div>

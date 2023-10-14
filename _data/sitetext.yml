@@ -1,4 +1,5 @@
---- # -----------------
+--- 
+# -----------------
 #
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
@@ -86,15 +87,9 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://instagram.com/flymeuae
         icon: "fab fa-instagram"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
-
+  country:
+    
+    
 # Arabic
 # -------
 ar: &DEFAULT_AR
@@ -174,5 +169,3 @@ ar: &DEFAULT_AR
         icon: "fab fa-facebook-f"
       - url: https://instagram.com/flymeuae
         icon: "fab fa-instagram"
-ar-AR:
-  <<: *DEFAULT_AR

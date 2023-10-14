@@ -21,14 +21,6 @@ en: &DEFAULT_EN
       section: contact
     - title: "About"
       section: about
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
 
 # Arabic
 # -------
@@ -44,5 +36,4 @@ ar: &DEFAULT_AR
       section: contact
     - title: "عنا"
       section: about
-ar-AR:
-  <<: *DEFAULT_AR
+
