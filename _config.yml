@@ -19,7 +19,7 @@ email      : contactf@flymeuae.com  #this is also the email contact forms will g
 description: UAE Tourist Visas
 author     : Saif
 
-locale:  en  #"ar" or "en" for default language
+locale:  ar  #"ar" or "en" for default language
 
 analytics:
   google: G-BWPSY71XPD
