@@ -28,3 +28,4 @@ collections:
   portfolio:
 
 markdown: kramdown
+exclude: ["LICENSE.txt", "README.md", "ToDoList.md"]
