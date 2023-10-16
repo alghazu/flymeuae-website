@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" dir="{{ site.data.sitetext[site.locale].header.dir }}">
+<html lang="{{ page.lang | slice: 0,2 | default: "en" }}" dir="{{ site.data.sitetext[page.lang].header.dir }}">
 
 
   {% include head.html %}
@@ -23,8 +23,7 @@
 
 	  <!-- Custom scripts for this template -->
 	  <script src="assets/js/agency.min.js"></script>
-	  <script src="assets/js/countries.js"></script>
-	  {% if site.data.sitetext[site.locale].clients.horizontal-scrolling == "yes" %} 
+	  {% if site.data.sitetext[page.lang].clients.horizontal-scrolling == "yes" %} 
 	  <script src="assets/js/clients.js"></script>
 	  {% endif %}
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: ar
 ---
 {% include navheader.html %}
 {% include features.html %}

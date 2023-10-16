@@ -1,4 +1,5 @@
---- # -----------------
+--- 
+# -----------------
 #
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
@@ -6,7 +7,7 @@
 # locale: "en-US"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+# {{ site.data.ui-text[page.lang].<var_name> | default: 'text' }}
 
 # English (default)
 en: &DEFAULT_EN
@@ -58,6 +59,8 @@ en: &DEFAULT_EN
     message: "Message"
     age: "Age"
     gender: "Select Gender"
+    male: "Male"
+    female: "Female"
     nationality: "Select Nationality"
     visa-type: "Select Visa Type"
     subject: "Contact Form Submission"
@@ -84,15 +87,9 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://instagram.com/flymeuae
         icon: "fab fa-instagram"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
-
+  country:
+    
+    
 # Arabic
 # -------
 ar: &DEFAULT_AR
@@ -144,6 +141,8 @@ ar: &DEFAULT_AR
     message: "الرسالة"
     age: "العمر"
     gender: "اختر الجنس"
+    male: "ذكر"
+    female: "أنثى"
     nationality: "اختر الجنسية"
     visa-type: "اختر نوع التأشيرة"
     subject: "تقديم نموذج الاتصال"
@@ -170,5 +169,3 @@ ar: &DEFAULT_AR
         icon: "fab fa-facebook-f"
       - url: https://instagram.com/flymeuae
         icon: "fab fa-instagram"
-ar-AR:
-  <<: *DEFAULT_AR
