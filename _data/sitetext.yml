@@ -82,7 +82,7 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     social:
       - url: https://twitter.com/flymeuae/
-        icon: "fab fa-twitter"
+        icon: "fab fa-x-twitter"
       - url: https://www.facebook.com/flymeuae/
         icon: "fab fa-facebook-f"
       - url: https://instagram.com/flymeuae
@@ -164,7 +164,7 @@ ar: &DEFAULT_AR
     legal: "سياسة الخصوصية"
     social:
       - url: https://twitter.com/flymeuae/
-        icon: "fab fa-twitter"
+        icon: "fab fa-x-twitter"
       - url: https://www.facebook.com/flymeuae/
         icon: "fab fa-facebook-f"
       - url: https://instagram.com/flymeuae
