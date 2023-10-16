@@ -5,7 +5,7 @@
 # locale: "en-US"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
-# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+# {{ site.data.navigation[page.lang].nav.<var_name> | default: 'text' }}
 
 # English (default)
 # -----------------

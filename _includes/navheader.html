@@ -23,6 +23,13 @@
           {%- endif -%}
         </li>
         {% endfor %}
+        <i class="nav-item">
+          {% if page.lang == "en" %}
+          <a class="nav-link js-scroll-trigger" href="ar">عربي</a>
+          {% else %}
+          <a class="nav-link js-scroll-trigger" href="index">English</a>
+          {% endif %}
+        </i>
       </ul>
     </div>
   </div>

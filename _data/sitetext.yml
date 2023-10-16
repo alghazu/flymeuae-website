@@ -7,7 +7,7 @@
 # locale: "en-US"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+# {{ site.data.ui-text[page.lang].<var_name> | default: 'text' }}
 
 # English (default)
 en: &DEFAULT_EN
