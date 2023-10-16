@@ -28,7 +28,7 @@ ar: &DEFAULT_AR
   menu: "القائمة"
   logo: 
     path: assets/img/logo/logo-arabic.svg
-    height: 
+    height: 62
   nav:
     - title: "الفيز"
       section: portfolio

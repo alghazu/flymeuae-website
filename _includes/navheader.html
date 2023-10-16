@@ -11,7 +11,11 @@
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
+      {% if page.lang == 'en' %}
       <ul class="navbar-nav text-uppercase ml-auto">
+      {% else %}
+      <ul class="navbar-nav text-uppercase mr-auto">
+      {% endif %}
         {%- for link in site.data.navigation[page.lang].nav -%}
         <li class="nav-item">
           {%- if link.url -%}
