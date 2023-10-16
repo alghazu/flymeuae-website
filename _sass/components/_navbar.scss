@@ -27,6 +27,7 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
+        text-align: center;
         font-size: 90%;
         font-weight: bold;
         padding: 0.75em 0;
@@ -73,4 +74,7 @@
       }
     }
   }
+}
+#language{
+  text-transform: initial;
 }
